@@ -1,0 +1,1 @@
+From-scratch Python code to solve initial value problems for ODEs and PDEs for a collection of implemented systems. Uses Runge-Kutta of different orders as main solver. Supports normalization and JIT compilation through JAX. 
