@@ -111,6 +111,8 @@ class RK():
 class Solver():
     '''
     Class for intergating initial value problems for implemented ODEs and PDEs.'''
+
+    # TODO: pass ODE/PDE specific parameters as *args **kwargs. Update relevant ODE classes
     def __init__(self, ode='FHN', rk='RK8', steps=1e5, tspan=[0, 100], d_x=15, d_y=15, normalization='-11', use_jax=True):
         '''
         ode: str, name of the ODE system
